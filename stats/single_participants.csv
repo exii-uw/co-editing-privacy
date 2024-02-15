@@ -1,0 +1,24 @@
+runId,gender,age,education,first_language,proficiency_reading,proficiency_writing,frequency
+1,Male,25,University/College,English,Native or bilingual proficiency,Native or bilingual proficiency,Daily
+2,Male,24,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Monthly
+3,Male,28,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Daily
+5,Female,25,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Weekly
+6,Male,28,Master's degree,Bengali,Full professional proficiency,Full professional proficiency,Weekly
+7,Prefer not to say,24,Master's degree,Urdu,Native or bilingual proficiency,Native or bilingual proficiency,Never
+4,Female,25,University/College,English,Native or bilingual proficiency,Native or bilingual proficiency,Less frequently than monthly
+10,Female,22,University/College,English,Native or bilingual proficiency,Native or bilingual proficiency,Weekly
+9,Male,26,Doctorate,Spanish,Native or bilingual proficiency,Full professional proficiency,Weekly
+11,Male,42,Doctorate,Farsi,Full professional proficiency,Full professional proficiency,Never
+12,Female,30,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Less frequently than monthly
+14,Male,24,Master's degree,Farsi / Persian,Full professional proficiency,Full professional proficiency,Monthly
+15,Male,22,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Monthly
+16,Female,23,University/College,Marathi,Full professional proficiency,Full professional proficiency,Weekly
+17,Male,23,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Weekly
+18,Male,24,Master's degree,Marathi,Full professional proficiency,Full professional proficiency,Less frequently than monthly
+19,Female,23,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Weekly
+13,Female,25,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Daily
+20,Female,28,Master's degree,French,Native or bilingual proficiency,Native or bilingual proficiency,Less frequently than monthly
+21,Male,21,University/College,Chinese,Limited working proficiency,Limited working proficiency,Weekly
+22,Male,39,Master's degree,Bangla,Full professional proficiency,Full professional proficiency,Monthly
+23,Male,23,University/College,English,Native or bilingual proficiency,Native or bilingual proficiency,Weekly
+24,Female,21,Master's degree,Chinese,Full professional proficiency,Full professional proficiency,Weekly

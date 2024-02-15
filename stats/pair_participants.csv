@@ -1,0 +1,9 @@
+runId,gender,age,education,first_language,proficiency_reading,proficiency_writing,frequency
+1,Male,25,Master's degree,English,Native or bilingual proficiency,Native or bilingual proficiency,Less frequently than monthly
+0,Female,25,Master's degree,Chinese,Full professional proficiency,Full professional proficiency,Monthly
+3,Male,25,University/College,Gujarati,Full professional proficiency,Minimum professional proficiency,Less frequently than monthly
+2,Male,24,University/College,English,Full professional proficiency,Full professional proficiency,Less frequently than monthly
+5,Male,23,University/College,Persian,Full professional proficiency,Full professional proficiency,Weekly
+4,Male,22,University/College,Gujarati,Full professional proficiency,Full professional proficiency,Monthly
+7,Female,30,Master's degree,Farsi,Full professional proficiency,Full professional proficiency,Weekly
+6,Male,21,University/College,English,Native or bilingual proficiency,Native or bilingual proficiency,Weekly
