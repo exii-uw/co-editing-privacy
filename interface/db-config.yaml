@@ -1,0 +1,18 @@
+# This user is seldom used at all, only for initialization. Dangerous because it
+# has access to everything.
+adminUser: 'admin'
+adminPassword: 'fd0Jakl-FweDS26CSD-dsIw97mZ'
+
+# This user is used by the server application.
+# It can create new record, but cannot delete existing one.
+appUser: 'app'
+appPassword: 'fzw23-op540dyrGFeSD-91AAabud'
+
+# This user should be preferred. It can only read the data.
+readerUser: 'experimenter'
+readerPassword: 'HCI-rocks-2021'
+
+# On Nikhita's computer: change the port (8080)
+port: 27017 
+host: 'localhost'
+db: 'co-editing-privacy'

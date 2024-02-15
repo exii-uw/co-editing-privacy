@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.fluid.classless.min.css">
+  </head>
+  <body style="background-color:#EBEDEF;">    
+    <div style="height: 250px;">
+      <div style="justify-content: flex-start; align-items: center;height: 230px;" class="flex-container">
+        <div style="justify-content: center; align-items: center; flex-direction: column-reverse; padding-left: 20px; align-self: flex-end;" class="flex-container">
+          <div style="font-size:60px; padding-bottom: 0px; margin-bottom: -20px; color:#5DADE2; transform: rotate(90deg);">&#10140;</div>
+          <p style="width:200px; padding-bottom: 0px; margin-bottom: 0px; "><b>Describe the image in 5 sentences using the editor below.</b></p>              
+        </div>
+        <img id="image" src="" style="height: 200px; margin-right: 20px; padding-left: 10px; align-self: flex-end;" />
+        <div style="justify-content: center; align-items: center; flex-direction: column-reverse; " class="flex-container">
+          <p style="width:200px; text-align: center; margin-bottom: 0px; " id="strategy">Writing using each of the update strategies:</p>         
+          <p style="width:200px; text-align: center; margin-bottom: 0px; " id="title"><b>Practice</b></p>    
+        </div>
+        <div style="padding-left: 20px; align-self: flex-end;">
+          <form name="strategyForm" style="font-size: 12px; margin-bottom: 0px; width: 200px">
+            <input type="radio" name="strtegies" value="immediacy_fullTyping">Immediate typing<br>
+            <input type="radio" name="strtegies" value="time_fullTyping">Timed regular typing<br>
+            <input type="radio" name="strtegies" value="time_perfectTyping">Timed perfect typing<br>
+            <input type="radio" name="strtegies" value="time_paste">Timed paste<br>
+            <input type="radio" name="strtegies" value="characters_fullTyping">Character regular typing<br>
+            <input type="radio" name="strtegies" value="characters_perfectTyping">Character perfect typing<br>
+            <input type="radio" name="strtegies" value="characters_paste">Character paste<br>
+            <input type="radio" name="strtegies" value="sentence_fullTyping">Sentence regular typing<br>
+            <input type="radio" name="strtegies" value="sentence_perfectTyping">Sentence perfect typing<br>
+            <input type="radio" name="strtegies" value="sentence_paste">Sentence paste<br>
+            <input type="radio" name="strtegies" value="manual_paste">Manually paste<br>
+          </form> 
+        </div>
+        <div style="justify-content: center; align-items: center; flex-direction: column-reverse; padding-right: 50px; align-self: flex-end; margin-left: auto;" class="flex-container">
+          <div style="font-size:60px; padding-bottom: 0px; margin-bottom: -20px; color:#808B96; transform: rotate(90deg);">&#10140;</div>
+          <p style="width:200px; padding-bottom: 0px; margin-bottom: 0px; ">This is what other people see when you're typing.</p>           
+        </div>
+      </div>  
+    </div>
+      
+    <div class="flex-container" style="margin-bottom: -50px">
+      <div style="flex-grow: 1; padding-left:20px; width: 60%;">
+        <div class="containerW">
+          
+          <div class="backdropW" id="writerBD">
+            <div class="highlights" id="writerHL">
+              <!-- cloned text with <mark> and <vW> tags here -->
+            </div>
+          </div>
+          <textarea class="textareaW" id="writer" autofocus></textarea>
+        </div>
+        <div id='timeIntervalBar'></div>
+        <div id='characterIntervalBar' class="w3-light-grey" style="width:90%; margin: auto;">
+          <div id="character-countdown" class="w3-grey" style="height:5px;width:100%"></div>
+        </div>
+        <button id="revealButton" style="width:90%; margin: auto;">Reveal</button>
+      </div>
+      <div style="flex-grow: 1; width: 40%;">
+        <div class="containerP">
+          <div class="backdropP" id="peekBD">
+            <div class="highlights" id="peekHL">
+              <!-- cloned text with <mark> and <vO> tags here -->
+            </div>
+          </div>          
+          <textarea class="textareaP" id="observer" style="display:none;"></textarea>
+          <textarea class="textareaP" id="peek" disabled></textarea>
+          <div class="whiteMask"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
