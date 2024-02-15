@@ -5,7 +5,7 @@ Supplementary materials for the CHI 2024 paper:
 
 ## Project Structure
 
--   `experiment` contains the source code for the simulated testbed shared-editor used in Experiment.
+-   `interface` contains the source code for the simulated testbed shared-editor used in Experiment.
 -   `stats` contains the data and statistics for the experiment. Each subfolder has `.csv` files with quantitative data from the experiment 1 and `.rmd` files for analysing the data.
 
     
